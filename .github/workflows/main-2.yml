@@ -15,6 +15,7 @@ jobs:
       - name: Install pipenv
         run: |
           python -m pip install --upgrade pipenv wheel
+          pipenv install flask~=0.12.2
           
       - id: cache-pipenv
         uses: actions/cache@v1
