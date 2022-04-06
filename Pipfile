@@ -24,17 +24,15 @@ gunicorn = "*"
 raven = "*"
 wagtail = "*"
 whitenoise = "*"
-
 # django-betterforms is unmaintained but this fork works
 django-betterforms = {git = "https://github.com/jpic/django-betterforms.git"}
-
 # Not used in the code outside the test suite, but useful in the Django shell
 # on the deployed site, so it's here instead of dev-packages.
 factory_boy = "*"
-
 # No longer used anywhere but still required until we squash away the
 # migrations that reference it.
 django-language-field = "*"
+taco = "*"
 
 [dev-packages]
 coverage = "*"
