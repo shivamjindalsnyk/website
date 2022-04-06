@@ -31,7 +31,7 @@ jobs:
         uses: snyk/actions/setup@master
       
       - name: Snyk monitor
-        run: snyk monitor --file=Pipfile 
+        run: snyk monitor --file=Pipfile --org=pipenv
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
 
