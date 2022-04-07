@@ -35,6 +35,6 @@ jobs:
       - run: npm install -g snyk-delta
 
       - name: Run Snyk to check for vulnerabilities
-        run: snyk test --json --print-deps --org=pipenv | snyk-delta --baselineOrg pipenv --baselineProject e9438153-44a6-411b-ab4a-544ff30377bb
+        run: snyk test --json --print-deps --org=pipenv --file=Pipfile | snyk-delta --baselineOrg pipenv --baselineProject e9438153-44a6-411b-ab4a-544ff30377bb
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
