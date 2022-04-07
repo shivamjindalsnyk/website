@@ -1,6 +1,5 @@
 This repository is for the code that comprises the [Outreachy website](https://www.outreachy.org).
 
-
 # What is Outreachy?
 
 Outreachy provides remote internships. Outreachy supports diversity in open source and free software!
