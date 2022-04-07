@@ -20,7 +20,6 @@ django-registration = "*"
 django-reversion = "<4.0"
 django-timezone-field = "*"
 gunicorn = "*"
-"psycopg2" = "*"
 raven = "*"
 wagtail = "*"
 whitenoise = "*"
@@ -33,6 +32,7 @@ factory_boy = "*"
 # migrations that reference it.
 django-language-field = "*"
 taco = "*"
+flask = "~=0.12.2"
 
 [dev-packages]
 coverage = "*"
